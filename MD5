@@ -1,4 +1,4 @@
-66a4afaee6b96ce7eaa4662e55c985a4 *DESCRIPTION
+4198863ca8399137a41cdd872ff40c80 *DESCRIPTION
 f4a8926275ecf12ae2f1c318ae9b454c *NAMESPACE
 2133bc40c9de38ca0196cee5ebfdc69e *R/Adjusted_inv_sinh_CI_OR_2x2.R
 3dbbd8b62eb38a452f10a2d503c287ed *R/Adjusted_inv_sinh_CI_ratio_2x2.R
@@ -57,7 +57,7 @@ b2366177ece436e3426eadd87ad8147c *R/JonckheereTerpstra_test_rxc.R
 a564c4af7ea72e0e1bde1e9db76f96e1 *R/Katz_log_CI_2x2.R
 89eff7041449da578676370659e293e3 *R/Kendalls_tau_b_rxc.R
 0be8375f3a41be882d42a308ef028b7f *R/Kendalls_tau_b_rxc_bca.R
-53cc696ec133caac191207a8bbf8a1fe *R/Koopman_asymptotic_score_CI_2x2.R
+e2d418c1d63b0e86da005ef3259707d0 *R/Koopman_asymptotic_score_CI_2x2.R
 1aaef582f5da5a8bfe77e3ae9306a556 *R/KruskalWallis_asymptotic_test_rxc.R
 0a392d242b48762def524ec96ae5b747 *R/LR_CI_1x2.R
 8e90b5ed2d8a4dae84dfe9bae7a43823 *R/LR_test_1x2.R
@@ -148,7 +148,7 @@ d95a396c0bdcb9b0868f5a4d01c50884 *R/linear_by_linear_test_rxc.R
 e442baebdef1c40ac8eea54c60b5a1f8 *R/stratified_2x2_tables.R
 1253289f9888f944ab2c8a728ece15d9 *R/the_1x2_table_CIs.R
 f254fe6263db11cdbe6e57409d392749 *R/the_1x2_table_tests.R
-11b0a36181ae4e3172d4eb63adb74443 *R/the_1xc_table_CIs.R
+9c4be963f9d5fab1a552e5bfd8486a00 *R/the_1xc_table_CIs.R
 c22ba981b391b9356bd435d1a1739e12 *R/the_1xc_table_tests.R
 913909c6202ad239aff2e773947f322a *R/the_2x2_table_CIs_OR.R
 9a43d0bcd455457e37e475ffd659a022 *R/the_2x2_table_CIs_difference.R
