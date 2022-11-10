@@ -1,5 +1,5 @@
-5bf1c41ce0343caae1b59d41b4a8e171 *DESCRIPTION
-f4a8926275ecf12ae2f1c318ae9b454c *NAMESPACE
+aa9147739ba8b6dc5f42e27d8465092c *DESCRIPTION
+6ad32cd1c21abae34f9759897f26d7fe *NAMESPACE
 c475997d3808cb17e751239f812ecae9 *R/Adjusted_inv_sinh_CI_OR_2x2.R
 4d3b3818820d56669fe958c145024b0e *R/Adjusted_inv_sinh_CI_ratio_2x2.R
 63a6e76015f0f2d900708ec2ce66718a *R/Adjusted_log_CI_2x2.R
@@ -19,7 +19,7 @@ a6f6524d9fac8cdda2ec0692d5ee3c59 *R/BonettPrice_hybrid_Wilson_score_CI_paired_2x
 b6f2e3c717851d85837108036a5ec7e2 *R/Bonferroni_type_CIs_rxc.R
 62dd69854e431dc20014e62bf50db536 *R/Brant_test_2xc.R
 3507e739679b25dbd59ed6fd25902235 *R/BreslowDay_homogeneity_test_stratified_2x2.R
-2c895f27d6d766119c7cdd2c2f98f737 *R/Chacko_test_1xc.R
+0894447a510cddf943ef468be244bc4f *R/Chacko_test_1xc.R
 1e210b8054384d342ffd7fefe09543bc *R/ClopperPearson_exact_CI_1x2.R
 6a6ae22e526949e684ebb114ca90027b *R/ClopperPearson_exact_CI_1x2_beta_version.R
 c2464c2f71e67b9db28b4d4d898af179 *R/ClopperPearson_midP_CI_1x2.R
@@ -182,7 +182,7 @@ cb12b0a0a3222aadff4834e55fc1108c *man/BonettPrice_hybrid_Wilson_score_CI_paired_
 dd9972fc54d26932fb342f5e505dbd6e *man/Bonferroni_type_CIs_rxc.Rd
 0749bfd110e54c4756df13aae6b67a5b *man/Brant_test_2xc.Rd
 592ca22477d9ca26d77045a653f20b3d *man/BreslowDay_homogeneity_test_stratified_2x2.Rd
-b8daa742fab09c85795af183a163a0f8 *man/Chacko_test_1xc.Rd
+37e88039b0f24deedeb6f8c744ba58eb *man/Chacko_test_1xc.Rd
 159a878af7c7b3f6db58b9a8dbf1e0be *man/ClopperPearson_exact_CI_1x2.Rd
 28edace6c59d927137f75a2746e05d89 *man/ClopperPearson_exact_CI_1x2_beta_version.Rd
 cb65736519a096734a640e12ac21271a *man/ClopperPearson_midP_CI_1x2.Rd
@@ -338,7 +338,7 @@ d17e0f3d864f171e5b5c0134b367c79c *man/the_paired_2x2_table_CIs_ratio.Rd
 5c5f8a6c7e4206cefdc180f5fec300dc *tests/testthat.R
 9099241786f339e192e2faba6a61fd73 *tests/testthat/test-ch10.R
 51e27f6798529612c4e0edc8ae523734 *tests/testthat/test-ch2.R
-84ebe724ba4fa2cb2d0dca5b31597ab5 *tests/testthat/test-ch3.R
+653f281e39d22071bf56a941d7598eb7 *tests/testthat/test-ch3.R
 474d3eb310953954f6c0be5229c77678 *tests/testthat/test-ch4.R
 1eca560762e7024eb016cb91418254b1 *tests/testthat/test-ch5.R
 ac0896bb3f851e676f5351db7455e5ad *tests/testthat/test-ch6.R
@@ -347,4 +347,5 @@ ac0896bb3f851e676f5351db7455e5ad *tests/testthat/test-ch6.R
 b6f259a73d04c268341b0fc0e508f828 *tests/testthat/test-ch9.R
 03f37a1a971fbfdafcd489e685bee74b *tests/testthat/test-crossChapterIntegration.R
 77252899b106a4cdc77b22f12ab50beb *tests/testthat/test-issue34.R
+3cd16bb05662d6b006aa71ac706207ce *tests/testthat/test-issue36.R
 e869620fe74984f4099c90b3c3c3fa18 *tests/testthat/test-outputFormat.R
