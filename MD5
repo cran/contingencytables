@@ -1,4 +1,4 @@
-aa9147739ba8b6dc5f42e27d8465092c *DESCRIPTION
+e043a25e0aab7db6bace49a2ebf0e0ec *DESCRIPTION
 6ad32cd1c21abae34f9759897f26d7fe *NAMESPACE
 c475997d3808cb17e751239f812ecae9 *R/Adjusted_inv_sinh_CI_OR_2x2.R
 4d3b3818820d56669fe958c145024b0e *R/Adjusted_inv_sinh_CI_ratio_2x2.R
@@ -7,7 +7,7 @@ c475997d3808cb17e751239f812ecae9 *R/Adjusted_inv_sinh_CI_OR_2x2.R
 9292179f5f1551ae1a1867af3bab608c *R/AgrestiCoull_CI_1x2.R
 c893110ab6d8056ff010a13cf7c32cbb *R/Arcsine_CI_1x2.R
 5def66e3f2ef85e343b9726f8f4eabdc *R/BaptistaPike_exact_conditional_CI_2x2.R
-71d8bc8c3a6b6b060027a16b9ea7d9cd *R/BaptistaPike_midP_CI_2x2.R
+a357641498428d1d1419e0ea52d34775 *R/BaptistaPike_midP_CI_2x2.R
 b65b8cab3b272c2f2f1536486599e0e7 *R/Bhapkar_test_paired_cxc.R
 34f9a3de3f4016a83f3f139bdee0df9e *R/Blaker_exact_CI_1x2.R
 1fa792aed6a48d2343f4e89c3a0ce8bb *R/Blaker_exact_test_1x2.R
@@ -348,4 +348,5 @@ b6f259a73d04c268341b0fc0e508f828 *tests/testthat/test-ch9.R
 03f37a1a971fbfdafcd489e685bee74b *tests/testthat/test-crossChapterIntegration.R
 77252899b106a4cdc77b22f12ab50beb *tests/testthat/test-issue34.R
 3cd16bb05662d6b006aa71ac706207ce *tests/testthat/test-issue36.R
+dffde7be0b7e38178abf3dd497c0cfee *tests/testthat/test-issue37.R
 e869620fe74984f4099c90b3c3c3fa18 *tests/testthat/test-outputFormat.R
