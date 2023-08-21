@@ -1,6 +1,6 @@
-e6aeea6c99518e54a742cfc21b0fd356 *DESCRIPTION
-9acda4f488e2ee5dd20a0c770c3b8dfe *NAMESPACE
-24e796d6e5b02c2adbfcad6bed1f6675 *NEWS.md
+755de4f2a070d319d19f4fb54ac62d0e *DESCRIPTION
+444d9e61f46e93ae3ce064375cbeab05 *NAMESPACE
+73c5fe205bc3ef0881b439c58ea3b563 *NEWS.md
 2ddf06e17d0249e59b6e2099ac0a8ee6 *R/Adjusted_inv_sinh_CI_OR_2x2.R
 e5fea8e9b59de0119416c85c3153e52e *R/Adjusted_inv_sinh_CI_ratio_2x2.R
 a5ba1f0b28e5d204255e2702cdc7c8c7 *R/Adjusted_log_CI_2x2.R
@@ -32,7 +32,7 @@ b014c639ed6b81f08905a469d08c9dd7 *R/ClopperPearson_exact_CI_1x2_beta_version.R
 5c198daf3b8f95e84d974cc7a39645e6 *R/Cornfield_exact_conditional_CI_2x2.R
 1260f4cf8effe5a86df212c9874730fa *R/Cornfield_midP_CI_2x2.R
 be383b0531ce9c627cdc91a8ce6eb93c *R/Cumulative_models_for_2xc.R
-f94b40ad48f6da04d146c6b00b900dbf *R/Cumulative_models_for_rxc.R
+f497310246f96005bfe149b73aa96e02 *R/Cumulative_models_for_rxc.R
 e7ab08b1a414b63d25755084d720439c *R/Exact_binomial_test_1x2.R
 51fcda202b2af59a87d41a1d83f93e37 *R/Exact_cond_midP_linear_rank_tests_2xc.R
 a71f9773fd5eb141c110f3b7a3790e11 *R/Exact_cond_midP_tests_rxc.R
@@ -139,10 +139,10 @@ befe523e3879cfa4c996824b1b7f565e *R/Wilson_score_CI_1x2.R
 e055ef06b769887b78badd019d50c30a *R/Woolf_logit_CI_2x2.R
 edf2f554f3cdd929c35cc5e9f3d30e0a *R/Woolf_test_and_CI_stratified_2x2.R
 7834b2153ac5aaf99837145e40491be3 *R/Z_unpooled_test_2x2.R
-cf52a877f406af3c51641a1b110efa23 *R/all_tables.R
+426f9357d226bc5c4389d577146d5a55 *R/all_tables.R
 6f3f46de58fbec76d4f4eb3fbdc5e819 *R/chapters.R
 735ae27b505743a1f62966f94be9fb8f *R/contingencytables-class.R
-47304c2be3576be7136e34c2e4e2fc0b *R/contingencytables-package.R
+2c41da94e625f3f0b596aec21bb91dbd *R/contingencytables-package.R
 6030ba0e1f3e03fc5385c1d692902b2c *R/datasets.R
 3e524866c8f2f4fea7fe2587cffab697 *R/fill_nchoosek.R
 ca5ced5ae122c3d7cafc934a1a03844b *R/gamma_coefficient_rxc.R
@@ -151,8 +151,8 @@ d53bb4c558f566f53e5810601d5f58c4 *R/generics.R
 cd8ccb29caeaa6d1533da0e5bec33555 *R/linear_by_linear_test_rxc.R
 57d35f40d21a49ee299db46a1918fe9c *R/linear_rank_test_statistic.R
 8e7a3d929caa365a80e2f86f23548deb *R/misc.R
-90490df1b580ebba9dc2c82f460e49e7 *R/multiple_hypergeomtric_pdf.R
-aa37f03ed62718d7ae45fed27643cc76 *R/print_functions.R
+fff68895f542154622bf7f35234f6144 *R/multiple_hypergeomtric_pdf.R
+228b052abb3a975263c70b4dfc839dc7 *R/print_functions.R
 001c70762f378b169e4c6d498d3606df *R/stratified_2x2_tables.R
 d3a694580dd276b1f762c3c24088e857 *R/the_1x2_table_CIs.R
 ecb6c24e210a526fd73b4bda9def72ed *R/the_1x2_table_tests.R
@@ -171,7 +171,7 @@ b91747a097e9b1c04edbef5c5be236f0 *R/the_2xc_table.R
 bf40bcb75a7912c1e2519a8139fe5168 *R/the_paired_cxc_table_ordinal.R
 3c19f187c49f1a81b7dbd1fdfeb63f17 *R/the_rx2_table.R
 22adac5195da50f9998499e4476dfe3a *R/the_rxc_table.R
-649f56fd81331536a901d4d1f6c9ae48 *R/validateArguments.R
+1e29d42afe47c6062be8de024745467c *R/validateArguments.R
 e4e8959ff3921eea57ba6139c3d30e6d *man/Adjusted_inv_sinh_CI_OR_2x2.Rd
 e67669bc0985ab810749672bce49737b *man/Adjusted_inv_sinh_CI_ratio_2x2.Rd
 86a31facbca96916368b86480608e834 *man/Adjusted_log_CI_2x2.Rd
@@ -322,7 +322,7 @@ f2ac5fa6f5437c24943e72addeeaef92 *man/chap3.Rd
 9ea6e48cbdbe7ce0446267790cd4c4d3 *man/chap7.Rd
 154daaeccff26648e4c082c9168c3efc *man/chap8.Rd
 0a97e44868c20f5211689bf010f2866a *man/chap9.Rd
-2da2ced68c8ae7ac9aa10a743d371f2f *man/contingencytables.Rd
+d566d56903a90776412664f80b8a0ed0 *man/contingencytables.Rd
 896f401489d659e713cbb7e1dd7c30d9 *man/contingencytables_result.Rd
 118abad3e33c71cd6bff58fa797df641 *man/doll_hill_1950.Rd
 ed7ec580eadd78f55ee639b5ab9a0166 *man/dot-onAttach.Rd
@@ -395,4 +395,4 @@ c8fb4f5a2238a9381c48bacecf5fa69c *tests/testthat/test-issue37.R
 e41a50fa956e984899da27f38ebe4c69 *tests/testthat/test-issue39.R
 bc1479a0e9de9cd4b38c572d903a14ce *tests/testthat/test-outputFormat.R
 2aff186173eb0755e0e8cc69331a095a *tests/testthat/test-print.R
-971fc9ec3e2ce495d3358648b93cfc66 *tests/testthat/test-validation.R
+ba8b5f7eaaac28fc7b6c7f8afa88f5c5 *tests/testthat/test-validation.R
