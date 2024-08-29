@@ -1,6 +1,6 @@
-c1734abe9048ecfee5abc5418ab94344 *DESCRIPTION
-6f433b64f4b92912bcf85e672c2d7ee6 *NAMESPACE
-8dd7a868bf272aecb642cebe4d9ce60f *NEWS.md
+11378db1abbade3325c83cd8fb99b718 *DESCRIPTION
+be96eda8439e2fc660f96000b979490e *NAMESPACE
+873c15fa2c67d64aa1eca6fff85f13d9 *NEWS.md
 8186eeee23ddfdfd4a412fe009aa7d32 *R/Adjusted_inv_sinh_CI_OR_2x2.R
 baeafe24c658c8c33c3960d29f925ad5 *R/Adjusted_inv_sinh_CI_ratio_2x2.R
 377a1e49009448d61be874b48ad42e29 *R/Adjusted_log_CI_2x2.R
@@ -147,7 +147,7 @@ e4d77ae1af34dbebf95e0d65d6d89c5f *R/Z_unpooled_test_2x2.R
 3e524866c8f2f4fea7fe2587cffab697 *R/fill_nchoosek.R
 ae73c19f488333d9ea6c748720ab6edd *R/gamma_coefficient_rxc.R
 8ab5736115b17640e10b32748c1ee41b *R/gamma_coefficient_rxc_bca.R
-40eb32e42a46e59f5e74aab43d0bd9f1 *R/generics.R
+a31e1b46da151c7a6b2ed88424fff33d *R/generics.R
 1ba69fc975f3a53080e31a01ede6d31c *R/linear_by_linear_test_rxc.R
 57d35f40d21a49ee299db46a1918fe9c *R/linear_rank_test_statistic.R
 1d8a1706a5eab6c5339b4df1d3503fca *R/misc.R
@@ -236,6 +236,7 @@ de2d601900b87331031287e12b7ad2e9 *man/LR_CI_1x2.Rd
 79af567dfeb67a979b1d3345ebc013a4 *man/LR_test_1x2.Rd
 e2c0bd2cc66873bed34680251131a69e *man/LR_test_1xc.Rd
 73540f818dd110589d864791e551934c *man/LR_test_2x2.Rd
+3f37b993cf8f9a5ec92ed9b171f6fd1a *man/ML_estimates.Rd
 f838ab12da5489cc3b15f706dc39ba5a *man/ML_estimates_and_CIs_stratified_2x2.Rd
 5b903663cfdbd452845b0ca95e78509e *man/MOVER_R_Wilson_CI_OR_2x2.Rd
 2ce120532021d4baef61641063f88174 *man/MOVER_R_Wilson_CI_ratio_2x2.Rd
@@ -312,6 +313,9 @@ dfb137d7cd282fc1c31faf6ae7a4dba8 *man/Wilson_score_CI_1x2.Rd
 792360107eba8683029ac50d3413152e *man/Woolf_test_and_CI_stratified_2x2.Rd
 778e45d8db684274e3bd791ec5270879 *man/Z_unpooled_test_2x2.Rd
 c05f6f0788f65a0dc64aff0a961b595c *man/bentur_2009.Rd
+28924e6649bfdcde913846db1af5c338 *man/calc_Pvalue_4x2.Rd
+3edc9780f245660cb69a95f844aa2190 *man/calc_Pvalue_5x2.Rd
+7c6454301a708e50dea208adcb9adb64 *man/calc_prob.Rd
 66cec70bfab24d7a8d3cc49b8ead8530 *man/calculate_limit_lower.Rd
 a6cb63d1f09b5516ae24ebe86a581987 *man/calculate_limit_upper.Rd
 baa0455b6d552499e51911c1ac8875b0 *man/cavo_2012.Rd
@@ -348,6 +352,7 @@ e87e2026d49156753ab3d589a1fdd531 *man/mills_graubard_1987.Rd
 1c9b0c5bfc3153b53529557ceddd41c2 *man/peterson_2007.Rd
 f0d998e28a642235f3b77db37fc71c92 *man/print.Rd
 05137561525449bd8f03c7138c42e684 *man/ritland_2007.Rd
+bde25cda1ce626ceb9c10aeb9312f379 *man/score_test_statistic.Rd
 581f0c1a8121767a7b6fede92de5ce9e *man/singh_2010_1.Rd
 a93b73e9f6894e26f7f7f18308cf7c94 *man/snp6498169.Rd
 a7a8fdfb6e7f548dee071996ac83a0ce *man/stratified_2x2_tables.Rd
@@ -379,7 +384,7 @@ e6cbe6b085770a2ddea13d25a392aead *man/the_paired_cxc_table_nominal.Rd
 bf2e4c61041b2e8895f91073eca3edc9 *man/validateArguments.Rd
 5c5f8a6c7e4206cefdc180f5fec300dc *tests/testthat.R
 6c063e3288c364f27684414c742154da *tests/testthat/test-biggerstaff.R
-9d59e6bf813a004fb199e0d12b3462cb *tests/testthat/test-bootstrap.R
+002d369c3bfb4c206821cf21c187eeb1 *tests/testthat/test-bootstrap.R
 8d855a17c739e44ce403f55c50bd077f *tests/testthat/test-ch10.R
 f07d28f3b180967f3a9a677bbc625534 *tests/testthat/test-ch2.R
 48d6e2c3c34d7cb3d9c076371333a369 *tests/testthat/test-ch3.R
