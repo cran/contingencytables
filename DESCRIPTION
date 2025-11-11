@@ -1,6 +1,6 @@
 Package: contingencytables
 Title: Statistical Analysis of Contingency Tables
-Version: 3.0.1
+Version: 3.1.0
 Authors@R: 
     c(
         person(
@@ -45,9 +45,10 @@ URL: https://contingencytables.com/
 BugReports: https://github.com/ocbe-uio/contingencytables/issues
 Imports: MASS, boot, methods
 Suggests: testthat
-Date: 2024-08-28
+Date: 2025-11-11
+Language: en-GB
 NeedsCompilation: no
-Packaged: 2024-08-29 04:10:39 UTC; netto
+Packaged: 2025-11-11 12:15:53 UTC; waldir
 Author: Morten Wang Fagerland [aut],
   Stian Lydersen [ctb],
   Petter Laake [ctb],
@@ -56,4 +57,4 @@ Author: Morten Wang Fagerland [aut],
   Brad J. Biggerstaff [ctb]
 Maintainer: Waldir Leoncio <w.l.netto@medisin.uio.no>
 Repository: CRAN
-Date/Publication: 2024-08-29 05:50:01 UTC
+Date/Publication: 2025-11-11 12:30:02 UTC
