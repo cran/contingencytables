@@ -1,6 +1,6 @@
 Package: contingencytables
 Title: Statistical Analysis of Contingency Tables
-Version: 3.1.0
+Version: 3.1.1
 Authors@R: 
     c(
         person(
@@ -39,16 +39,16 @@ Authors@R:
 Description: Provides functions to perform statistical inference of data organized in contingency tables. This package is a companion to the "Statistical Analysis of Contingency Tables" book by Fagerland et al. <ISBN 9781466588172>.
 License: GPL-3
 Encoding: UTF-8
-RoxygenNote: 7.3.2
 URL: https://contingencytables.com/
         https://ocbe-uio.github.io/contingencytables/
 BugReports: https://github.com/ocbe-uio/contingencytables/issues
-Imports: MASS, boot, methods
+Imports: MASS, boot, methods, utils
 Suggests: testthat
-Date: 2025-11-11
+Date: 2026-10-27
 Language: en-GB
+Config/roxygen2/version: 8.1.1
 NeedsCompilation: no
-Packaged: 2025-11-11 12:15:53 UTC; waldir
+Packaged: 2026-10-27 11:42:03 UTC; waldir
 Author: Morten Wang Fagerland [aut],
   Stian Lydersen [ctb],
   Petter Laake [ctb],
@@ -57,4 +57,4 @@ Author: Morten Wang Fagerland [aut],
   Brad J. Biggerstaff [ctb]
 Maintainer: Waldir Leoncio <w.l.netto@medisin.uio.no>
 Repository: CRAN
-Date/Publication: 2025-11-11 12:30:02 UTC
+Date/Publication: 2026-10-27 12:10:02 UTC

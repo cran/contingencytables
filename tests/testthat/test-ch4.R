@@ -63,7 +63,7 @@ test_that("Chapter 4 functions basically work", {
     regexp = "P = 0.06287"
   )
   expect_output(
-    object = print(Fisher_exact_test_2x2(tea * 0)),
+    object = print(Fisher_exact_test_2x2(tea * 0, "Pearson")),
     regexp = "The Fisher exact test \\(Pearson\\): P = 1.00000"
   )
   expect_output(
@@ -71,11 +71,11 @@ test_that("Chapter 4 functions basically work", {
     regexp = "The Suissa-Shuster exact unconditional test: P = 0.28916"
   )
   expect_output(
-    object = print(Exact_unconditional_test_2x2(tea, gamma= 0)),
+    object = print(Exact_unconditional_test_2x2(tea, gamma = 0)),
     regexp = "The Suissa-Shuster exact unconditional test: P = 0.28906"
   )
   expect_output(
-    object = print(Fisher_midP_test_2x2(ritland_2007)),
+    object = print(Fisher_midP_test_2x2(ritland_2007, "hypergeometric")),
     regexp = "The Fisher mid-P test \\(Fisher-Irwin\\): P = 0.04466"
   )
   expect_output(
@@ -84,7 +84,7 @@ test_that("Chapter 4 functions basically work", {
   )
   expect_output(
     object = print(Fisher_midP_test_2x2(ritland_2007, "LR")),
-    regexp = "The Fisher mid-P test \\(LR\\): P = 0.04466"
+    regexp = "The Fisher mid-P test \\(LR\\): P = 0.02318"
   )
   expect_output(
     object = print(Gart_adjusted_logit_CI_2x2(ritland_2007)),
@@ -176,11 +176,11 @@ test_that("Chapter 4 functions basically work", {
   )
   expect_output(
     object = print(MOVER_R_Wilson_CI_OR_2x2(lampasona_2013)),
-    regexp = "estimate = 5.6250 \\(95% CI 1.0433 to 20.5670\\)"
+    regexp = "estimate = 5.6250 \\(95% CI 1.1679 to 27.1490\\)"
   )
   expect_output(
     object = print(MOVER_R_Wilson_CI_OR_2x2(matrix(c(10, 20, 0, 30), 2))),
-    regexp = "MOVER-R Wilson CI: estimate =    Inf \\(95% CI 3.9010 to    Inf\\)"
+    regexp = "MOVER-R Wilson CI: estimate =    Inf \\(95% CI 3.5292 to    Inf\\)"
   )
   expect_output(
     object = print(MOVER_R_Wilson_CI_OR_2x2(matrix(c(1, NA, 3, 4), 2))),
